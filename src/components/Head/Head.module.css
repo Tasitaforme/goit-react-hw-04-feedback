@@ -1,0 +1,14 @@
+.hero {
+    text-align: center;
+    background-image: linear-gradient(180deg, rgba(150, 89, 27, 0.87) 0%, rgba(248, 251, 251, 0) 30%), url(../../image/cup-coffee.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+}
+
+.hero h1 {
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+

@@ -1,0 +1,31 @@
+.btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    background-color: #843F24;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn:hover, .btn:focus {
+    background-color: #3a231b;
+}
+
+.btn_container {
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    padding: 0 20px;
+}
+
+@media screen and (max-width: 350px) {
+    .btn_container {
+        flex-direction: column;
+    }
+}
