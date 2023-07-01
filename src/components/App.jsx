@@ -1,23 +1,5 @@
-// export const App = () => {
-//   return (
-//     <div
-//       style={{
-//         height: '100vh',
-//         display: 'flex',
-//         justifyContent: 'center',
-//         alignItems: 'center',
-//         fontSize: 40,
-//         color: '#010101'
-//       }}
-//     >
-//       React homework template
-//     </div>
-//   );
-// };
-
 import { Component } from 'react'
 
-import { nanoid } from 'nanoid';
 import Section from './Section/Section';
 import FeedbackOptions from './FeedbackOptions/FeedbackOptions';
 import Notification from './Notification/Notification';
@@ -32,9 +14,7 @@ class App extends Component {
   };
 
   onLeaveFeedback = option => {
-    // console.log(option);
     this.setState(prevState => {
-      // console.log(prevState);
       return { [option]: prevState[option] + 1 };
     });
   };
