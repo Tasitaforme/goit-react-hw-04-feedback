@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 400px;
+    margin: 0 auto;
 }
 
 .hero h1 {
@@ -12,3 +13,8 @@
     letter-spacing: 2px;
 }
 
+@media screen and (min-width: 900px) {
+    .hero{
+        width: 900px;
+    }
+}
